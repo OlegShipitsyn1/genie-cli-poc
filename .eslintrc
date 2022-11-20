@@ -1,0 +1,153 @@
+{
+  "extends": [
+    "plugin:vue/vue3-recommended"
+  ],
+  "env": {
+    "node": true,
+    "browser": true
+  },
+  "rules": {
+    "vue/multi-word-component-names": "off",
+    "vue/component-api-style": [
+      "error",
+      [
+        "script-setup",
+        "composition"
+      ] // "script-setup", "composition", "composition-vue2", or "options"
+    ],
+    "vue/component-name-in-template-casing": [
+      "error",
+      "PascalCase",
+      {
+        "registeredComponentsOnly": true,
+        "ignores": []
+      }
+    ],
+    "vue/component-options-name-casing": [
+      "error",
+      "PascalCase"
+    ],
+    "vue/custom-event-name-casing": [
+      "error",
+      "kebab-case",
+      {
+        "ignores": []
+      }
+    ],
+    "vue/define-macros-order": [
+      "error",
+      {
+        "order": [
+          "defineEmits",
+          "defineProps"
+        ]
+      }
+    ],
+    "vue/no-empty-component-block": 1,
+    "vue/no-potential-component-option-typo": 1,
+    "vue/no-static-inline-styles": 1,
+    "vue/no-this-in-before-route-enter": 1,
+    "vue/no-unused-refs": 1,
+    "vue/require-expose": 1,
+    "vue/arrow-spacing": 1,
+    "vue/v-for-delimiter-style": [
+      "error",
+      "in"
+    ],
+    "vue/no-template-target-blank": [
+      "error",
+      {
+        "allowReferrer": true,
+        "enforceDynamicLinks": "always"
+      }
+    ],
+    "vue/block-tag-newline": [
+      "error",
+      {
+        "singleline": "always",
+        "multiline": "always",
+        "maxEmptyLines": 0,
+        "blocks": {
+          "template": {
+            "singleline": "always",
+            "multiline": "always",
+            "maxEmptyLines": 0
+          },
+          "script": {
+            "singleline": "always",
+            "multiline": "always",
+            "maxEmptyLines": 0
+          },
+          "my-block": {
+            "singleline": "always",
+            "multiline": "always",
+            "maxEmptyLines": 0
+          }
+        }
+      }
+    ],
+    "no-var": "error",
+    "vue/no-unused-vars": "error",
+    "no-extend-native": 0,
+    "no-new": 0,
+    "no-useless-escape": 0,
+    "no-useless-constructor": 0,
+    "no-trailing-spaces": 2,
+    "indent": [
+      "error",
+      2
+    ],
+    "space-infix-ops": 2,
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "always",
+        "named": "always",
+        "asyncArrow": "always"
+      }
+    ],
+    "semi": [
+      "error",
+      "never"
+    ],
+    "comma-dangle": 0,
+    "no-console": 0,
+    "no-debugger": 0,
+    "id-length": 0,
+    "eol-last": 0,
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "array-bracket-spacing": [
+      "error",
+      "always"
+    ],
+    "arrow-spacing": "error",
+    "no-multiple-empty-lines": "error",
+    "no-unused-vars": "error",
+    "spaced-comment": "error",
+    "quotes": [
+      "error",
+      "single",
+      {
+        "allowTemplateLiterals": true
+      }
+    ],
+    "no-unreachable": "error",
+    "keyword-spacing": "error",
+    "space-before-blocks": "error",
+    "semi-spacing": "error",
+    "comma-spacing": "error",
+    "key-spacing": "error",
+    "prefer-const": [
+      "error",
+      {
+        "destructuring": "any",
+        "ignoreReadBeforeAssign": false
+      }
+    ],
+    "no-irregular-whitespace": 2,
+    "vue/require-default-prop": "off"
+  }
+}

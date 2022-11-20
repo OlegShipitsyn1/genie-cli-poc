@@ -1,0 +1,8 @@
+themes: [ 'accent', 'bleak', 'simple-dark', 'simple-light', 'hollow' ]
+color: {
+  'bleak': '#FFFFFF',
+  'simple-light': '#5B5B5B',
+  'simple-dark': '#FFFFFF',
+  'hollow': '#521CEE',
+  'accent': '#FFFFFF',
+}

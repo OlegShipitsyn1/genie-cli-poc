@@ -1,0 +1,31 @@
+{
+  "name": "genie",
+  "version": "0.0.0",
+  "description": "Genie is a CLI tool for transferring features from one project to another",
+  "main": "./bin/cli.js",
+  "type": "module",
+  "bin": {
+    "genie": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "genie",
+    "code-reuse",
+    "olegshipitsyn"
+  ],
+  "author": "Oleg Shipitsyn <olegshipitsyn.work@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.2.45",
+    "chalk": "^5.1.2",
+    "eslint": "^8.28.0",
+    "eslint-plugin-vue": "^9.7.0",
+    "inquirer": "^9.1.4",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21",
+    "rxjs": "^7.5.7",
+    "yargs": "^17.6.2"
+  }
+}
