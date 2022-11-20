@@ -6,5 +6,5 @@ npm intall -g genie
 ```
 ### Usage example
 ```
-genie implement BaseButton ./components
+genie implement BaseButton.vue ./components
 ```
