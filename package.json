@@ -1,9 +1,13 @@
 {
   "name": "genie-cli-poc",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Genie is a CLI tool for transferring features from one project to another",
   "main": "./bin/cli.js",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OlegShipitsyn1/genie-cli-poc"
+  },
   "bin": {
     "genie": "./bin/cli.js"
   },
