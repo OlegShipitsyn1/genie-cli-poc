@@ -1,5 +1,5 @@
 {
-  "name": "genie",
+  "name": "genier",
   "version": "0.0.1",
   "description": "Genie is a CLI tool for transferring features from one project to another",
   "main": "./bin/cli.js",
