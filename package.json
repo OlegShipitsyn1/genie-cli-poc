@@ -1,6 +1,6 @@
 {
   "name": "genier",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Genier is a CLI tool for transferring features from one project to another",
   "main": "./bin/cli.js",
   "type": "module",

@@ -2,7 +2,7 @@
 Genier is a CLI tool for transferring features from one project to another
 ### Installation
 ```
-npm intall -g genier
+npm install -g genier
 ```
 ### Usage example
 ```
