@@ -1,10 +1,10 @@
-## Genier CLI tool
-Genier is a CLI tool for transferring features from one project to another
+## Genie CLI tool
+Genie is a CLI tool for transferring features from one project to another
 ### Installation
 ```
-npm install -g genier
+npm install -g genie-cli-poc
 ```
 ### Usage example
 ```
-genier implement BaseButton.vue ./components
+genie implement BaseButton.vue ./components
 ```
