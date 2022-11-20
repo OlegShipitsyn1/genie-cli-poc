@@ -1,4 +1,4 @@
-## Genie CLI tool
+## Genier CLI tool
 Genier is a CLI tool for transferring features from one project to another
 ### Installation
 ```
